@@ -13,16 +13,24 @@ legend {
 
 fieldset {
     float: left;
+    width: 30%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+div {
+    size: 80%;
+}
+
+.div2,
+.div3 {
+    clear: both;
 }
 
 footer {
     font-weight: bold;
     color: green;
     clear: both;
+    text-align: center;
+    border: 2px solid red;
 }
-
-
-/*
-.div1 {
-    float: left;
-}*/
