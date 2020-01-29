@@ -1,6 +1,22 @@
 p {
     color: red;
 }
+
 body {
-    background-color: aqua;
+    background-color: beige;
 }
+
+legend {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+fieldset {
+    float: left;
+}
+
+
+/*
+.div1 {
+    float: left;
+}*/
