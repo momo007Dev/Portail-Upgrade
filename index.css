@@ -1,9 +1,39 @@
-p {
-    color: red;
+html {
+    color: white;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+h2 {
+    color: yellow;
+    margin-top: 1%;
+}
+
+.special {
+    color: orange;
+    font-style: italic;
+}
+
+#logo {
+    margin-top: 2%;
+}
+
+img {
+    margin-left: 5px;
 }
 
 body {
-    background-color: beige;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(28, 29, 37, .9);
+}
+
+p {
+    color: red;
 }
 
 legend {
@@ -12,6 +42,8 @@ legend {
 }
 
 fieldset {
+    text-align: center;
+    font-size: larger;
     float: left;
     width: 30%;
     margin-left: 10%;
@@ -33,4 +65,7 @@ footer {
     clear: both;
     text-align: center;
     border: 2px solid red;
+    margin-left: 42%;
+    margin-right: 42%;
+    padding: 1%;
 }
